@@ -13,7 +13,6 @@ rag_deployment/minilm/
 
 # FAISS indexes
 *.faiss
-*.safetensors
 
 # datasets
 datasets/
