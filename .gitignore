@@ -9,7 +9,7 @@ lost+found/
 
 # local models
 rag_deployment/tinyllama/
-rag_deployment/minilm
+rag_deployment/minilm/
 
 # FAISS indexes
 *.faiss
