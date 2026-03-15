@@ -1,3 +1,23 @@
 lost+found/
 .rclone/
-.__nb_swap__
+.__nb_swap_
+
+# LLM weights
+*.safetensors
+*.bin
+*.pt
+
+# local models
+rag_deployment/tinyllama/
+rag_deployment/minilm
+
+# FAISS indexes
+*.faiss
+
+# datasets
+datasets/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints_

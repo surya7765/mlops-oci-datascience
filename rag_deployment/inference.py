@@ -28,7 +28,9 @@ def load_model():
         chunk_metadata = json.load(f)
 
     logger.info("Loading embedding model...")
-    embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
+    # embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
+    embedding_model = SentenceTransformer(os.path.join(model_dir, "minilm"))
+
 
     # CPU-only deployment on OCI Data Science free tier.
     device = "cpu"

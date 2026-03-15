@@ -1,0 +1,7 @@
+faiss-cpu
+torch
+transformers
+sentence-transformers
+oci
+numpy
+fastapi
